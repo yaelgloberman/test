@@ -4,7 +4,7 @@ const http = require("http");
 const cors = require("cors");
 const {routesInit} = require("./routes/config_routes")
 require("./db/mongoconnect");
-
+//
 const app = express();
 
 // נותן גישה לכל הדומיינים לגשת לשרת שלנו
